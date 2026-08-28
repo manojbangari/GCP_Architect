@@ -32,3 +32,18 @@ variable "network" {
   description = "Dev VPC network"
   type        = string
 }
+
+variable "network_name" {
+  description = "Dev VPC name"
+  type        = string
+}
+
+variable "subnet_name" {
+  description = "Dev subnet name"
+  type        = string
+}
+
+variable "subnet_cidr" {
+  description = "Dev subnet CIDR"
+  type        = string
+}
